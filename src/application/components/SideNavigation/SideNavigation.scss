@@ -1,0 +1,77 @@
+.side-navigation {
+  background-color: black;
+  height: 0px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.side-navigation-menu {
+  background-color: black;
+  height: 96%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 850ms;
+}
+
+.side-navigation-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 8px;
+  margin: 20px;
+  list-style: none;
+  height: 60px;
+}
+
+.side-navigation-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.side-navigation-text a:hover {
+  color: black;
+  background-color: rgb(245, 236, 236);
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+
+.side-navigation-menu-items {
+  width: 100%;
+}
+
+.side-navigation-toggle {
+  background-color: rgb(245, 236, 236);
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  margin-left: 16px;
+}
+
+.header-logo-admin {
+  cursor: pointer;
+  width: 110px;
+}
+
+.header-docaskuj-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  margin-left: 18%;
+}

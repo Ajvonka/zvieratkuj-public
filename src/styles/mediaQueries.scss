@@ -1,0 +1,14 @@
+$laptop: 1280px;
+$desktop: 2560px;
+
+@mixin resolution($breakpoint) {
+  @if &breakpoint == "laptop" {
+    @media screen and (max-width: #{$laptop}) {
+      @content;
+    }
+  } @else if &breakpoint == "desktop" {
+    @media screen and (min-width: #{$desktop}) {
+      @content;
+    }
+  }
+}

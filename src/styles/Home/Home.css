@@ -1,0 +1,252 @@
+.dashboard-section-costs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  margin-top: 10px;
+  align-items: center;
+  background-color: #f8f8f8;
+  height: 200px;
+  width: 92%;
+  color: #34495e;
+}
+
+.dashboard-title {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  height: 27px;
+  width: 96%;
+}
+
+.dashboard-title h2 {
+  color: #435d53;
+}
+
+.costs-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0px;
+  align-items: center;
+  height: 165px;
+  width: 96%;
+  color: #34495e;
+}
+
+.cost-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 14px 0px rgba(187, 185, 185, 0.75);
+  height: 153px;
+  width: 38%;
+  color: #34495e;
+}
+
+.cost-item p {
+  font-size: 1.6vw;
+  color: #647b83;
+}
+
+.dashboard-section-appointments {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #f8f8f8;
+  height: 345px;
+  width: 92%;
+  color: #34495e;
+}
+
+.appointment-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0px;
+  align-items: center;
+  height: 310px;
+  width: 96%;
+  color: #34495e;
+}
+
+.appointment-item {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 14px 0px rgba(187, 185, 185, 0.75);
+  height: 265px;
+  width: 38%;
+  color: "#236f87";
+}
+
+.appointment-title {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  height: 50px;
+  width: auto;
+  color: #647b83;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.appointment-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 10px;
+  height: auto;
+  width: auto;
+  color: #677b7e;
+  overflow: auto;
+}
+
+.calendarIcon {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 0px;
+  border-radius: 5px;
+  height: 40px;
+  width: auto;
+  font-size: 1vw;
+}
+
+.blue {
+  color: #dde6e7;
+  border: 1px #dde6e7 solid;
+}
+
+.red {
+  color: #aa3d51;
+  border: 1px #e0c4c4 solid;
+}
+
+.orange {
+  color: #dd7220;
+  border: 1px #f1e1d6 solid;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: auto;
+  width: auto;
+  color: #677b7e;
+}
+
+.appointment {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  padding-left: 15px;
+  height: auto;
+  width: auto;
+  color: #677b7e;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 5px;
+  padding-left: 15px;
+  height: auto;
+  width: auto;
+  color: #677b7e;
+}
+
+.action button {
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+  background: #628b8b;
+}
+
+.action button:hover {
+  background-color: #769494;
+}
+
+.dashboard-section-todos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #f8f8f8;
+  height: 310px;
+  width: 92%;
+  color: #34495e;
+}
+
+.todos-items {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+  height: 275px;
+  width: 100%;
+  color: #34495e;
+}
+
+.todo-item {
+  place-self: center stretch;
+  color: "#236f87";
+}
+
+.todo-component {
+  padding-top: 35px;
+  margin-left: 50px;
+  width: 43%;
+  display: grid;
+  place-self: center stretch;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  column-gap: 40px;
+  height: 235px;
+  overflow: auto;
+}
+
+.todoWomen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 140px;
+  align-items: center;
+  height: 260px;
+  width: 43%;
+  color: #34495e;
+}
+
+#todoWomen {
+  margin-left: 10px;
+  max-width: 50%;
+}
+
+.pieChart {
+  width: 40%;
+  margin-right: 20px;
+  transform: rotate(0deg) translate3d(0, 0, 0);
+}
+
+.warning-red {
+  color: #b90b0b;
+}
+
+.warning-green {
+  color: #40a72b;
+}
+/*# sourceMappingURL=Home.css.map */

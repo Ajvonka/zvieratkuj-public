@@ -1,0 +1,43 @@
+.vetcare-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
+  height: 944px;
+  width: 100%;
+}
+
+.menDog-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin: 0px;
+  flex-direction: row;
+  align-items: center;
+  height: 260px;
+  width: 100%;
+}
+
+#dogMan {
+  padding-top: 50px;
+  margin-left: 40px;
+  max-width: 20%;
+}
+
+.vet-table-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 14px 0px rgba(214, 211, 211, 0.75);
+  height: auto;
+  width: 100%;
+}
+/*# sourceMappingURL=Vetcare.css.map */

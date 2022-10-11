@@ -1,0 +1,50 @@
+/*
+Task manager START
+*/
+.task-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 14px 0px rgba(233, 232, 232, 0.75);
+  height: 980px;
+  width: 100%;
+}
+
+.taskDog-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin: 0px;
+  flex-direction: row;
+  align-items: center;
+  height: 260px;
+  width: 100%;
+}
+
+#taskDog {
+  padding-top: 50px;
+  max-width: 25%;
+}
+
+.table-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 14px 0px rgba(214, 211, 211, 0.75);
+  height: 690px;
+  width: 100%;
+}
+
+/*
+  Task manager END
+  */
+/*# sourceMappingURL=TaskManager.css.map */
